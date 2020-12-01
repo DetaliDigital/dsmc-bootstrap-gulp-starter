@@ -1,0 +1,9 @@
+# Исключим из репозитория папки с картинками
+.idea/
+.gitignore
+
+# gulp
+node_modules
+package-lock.json
+dist/
+scss/bootstrap/*

@@ -1,0 +1,33 @@
+{
+  "name": "dsmc-gulp-bootstrap-starter",
+  "title": "Gulp Bootstrap Starter",
+  "version": "0.5.0",
+  "description": "Базовая конфигурация проекта Gulp + Bootstrap 4 + SCSS",
+  "homepage": "https://dsmc.agency",
+  "author": "DSMC CREATIVE GROUP",
+  "contact": "info@dsmc.agency",
+  "bugs": "",
+  "keywords": [],
+  "contributors": [
+    "Oleg Shchabelev <oleg@dsmc.agency>"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-icons": "^1.0.0-alpha4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "chalk": "^2.4.2",
+    "del": "^3.0.0",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cdnizer": "^2.0.2",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-npm-dist": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-notify": "^3.2.0"
+  }
+}
