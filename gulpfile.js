@@ -56,7 +56,7 @@ gulp.task('html', function () {
 // Cкопировать содержание папки pages в dist
 
 gulp.task('copy', function () {
-    return getFoldersSrc('pages', copy)
+    return getFoldersSrc('scss', copy)
         .pipe(changed(distAppDir))
         .pipe(gulp.dest(distAppDir));
 
@@ -144,7 +144,7 @@ function reload(done) {
 function serve(done) {
     bs.init({
         server: {
-            baseDir: distPageDir
+            baseDir: distAppDir
         },
         files: [
             distStyleDir + '*.css'
